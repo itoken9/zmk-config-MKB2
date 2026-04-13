@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - {t: ESC, h: BT}
+  - PAGE UP
+  - {t: LEFT CONTROL, h: BT}
   - A
   - S
   - D
@@ -35,56 +35,56 @@ layers:
   - M
   - COMMA
   - DOT
-  - UP
-  - FSLH
-  - {t: ESC, h: LCTL}
+  - SLASH
+  - PAGE DOWN
+  - ESCAPE
   - LGUI
-  - LALT
-  - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - LEFT WIN
+  - LEFT ALT
+  - SPACE
+  - {t: BACKSPACE, h: Num}
+  - {t: ENTER, h: Fnc}
+  - F10
+  - F4
+  - F5
   - LEFT
   - UP
-  - SPACE
+  - LANGUAGE 1
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - LANGUAGE 2
   - PG DN
   - END
   - A
   - B
   Fnc:
-  - GRAVE
-  - PG UP
-  - UP
-  - PG DN
-  - HOME
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - {t: ▽, type: trans}
-  - '&tog_ls'
+  - TAB
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - UP ARROW
+  - '8'
+  - '9'
+  - '0'
+  - LEFT CONTROL
   - LEFT
   - DOWN
   - RIGHT
   - END
   - {t: ▽, type: trans}
   - F6
-  - F7
-  - F8
-  - F9
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - F10
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - BKSP
   - DEL
   - {t: ▽, type: trans}
@@ -100,9 +100,9 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - ENTER
+  - ENTER
+  - ENTER
   - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -144,8 +144,8 @@ layers:
   - BSLH
   - {t: ▽, type: trans}
   - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -158,9 +158,9 @@ layers:
   - {t: ▽, type: trans}
   - ENTER
   - ENTER
+  - ENTER
+  - ENTER
   - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
