@@ -18,6 +18,9 @@ manifest:
       url-base: https://github.com/cormoran
     - name: prospector
       url-base: https://github.com/t-ogura
+    # Nick-Conway氏のリモートを追加
+    - name: nickconway
+      url: https://github.com
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -65,6 +68,9 @@ manifest:
       remote: prospector
       revision: v2.0.0 #v2.1.0  # Use v2.0.0 for ZMK ≤0.3 (Zephyr 3.x)
       path: modules/prospector-zmk-module
+    - name: zmk-nice-oled
+      remote: nickconway
+      revision: main
   self:
     path: config
 
