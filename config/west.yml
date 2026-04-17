@@ -16,6 +16,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: cormoran
       url-base: https://github.com/cormoran
+    - name: prospector
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -59,7 +61,10 @@ manifest:
     - name: zmk-module-settings-rpc
       remote: cormoran
       revision: main
-
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: v2.0.0 #v2.1.0  # Use v2.0.0 for ZMK ≤0.3 (Zephyr 3.x)
+      path: modules/prospector-zmk-module
   self:
     path: config
 
