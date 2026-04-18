@@ -35,7 +35,7 @@ manifest:
       remote: badjeff
       revision: main
     - name: zmk-nice-oled
-    　remote: te9no
+      remote: te9no
       revision: main
     - name: zmk-layout-shift
       remote: kot149
