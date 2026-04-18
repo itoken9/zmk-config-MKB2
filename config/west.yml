@@ -20,7 +20,8 @@ manifest:
       url-base: https://github.com/t-ogura
   projects:
     - name: zmk
-      # remote: zmkfirmware
+      remote: zmkfirmware
+      revision: v0.3
       remote: te9no
       revision: v0.3-branch+dya
       import: app/west.yml
